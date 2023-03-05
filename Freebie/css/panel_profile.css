@@ -1,0 +1,51 @@
+.wrapper .main .panel-profile {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .main .panel-profile .profile-title {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.wrapper .main .panel-profile .profile-title .title {
+    color: #11193C;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.wrapper .main .panel-profile .profile-title span {
+    font-size: 1rem;
+    color: #8990AD;
+    margin-top: 10px;
+}
+
+.wrapper .main .panel-profile .profile-btn {
+    background-color: #00E38C;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    box-shadow: 0px 3px 26px #E5E9F6;
+}
+
+.wrapper .main .panel-profile .profile-btn img {
+    margin-right: 10px;
+}
+
+.wrapper .main .panel-profile .profile-photo {
+    height: 130px;
+    width: 130px;
+}
+
+.wrapper .main .panel-profile .user-name {
+    color: #8990AD;
+    font-size: 1rem;
+}

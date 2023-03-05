@@ -1,0 +1,135 @@
+.main .container {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Team Members */
+
+.main .container .team-members {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .container .team-members .team-members-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.main .container .team-members .team-members-title span.title {
+    color: #11193C;
+    font-size: 1.5rem;
+}
+
+.main .container .team-members .team-members-title p {
+    color: #2464FC;
+    font-size: 1rem;
+    margin-left: auto;
+}
+
+.main .container .team-members .team-members-box {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 15%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 26px #E5E9F6;
+    padding-right: 10px;
+}
+
+.main .container .team-members .team-members-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.main .container .team-members .team-members-box span {
+    color: #0B2257;
+
+}
+
+.main .container .team-members .team-members-box span.degree {
+    margin-left: auto;
+    color: #00e38c;
+    background-color: #00e38c38;
+    width: 110px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}   
+
+.main .container .team-members .team-members-box span.degree.mng {
+    color: #2464FC;
+    background: #2465fc34;
+}
+
+/* Comparison */
+
+.container .comparison {
+    width: 45%;
+}
+
+.container .comparison .comparison-title {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.container .comparison .comparison-title span.title {
+    color: #11193C;
+    font-size: 1.5rem;
+}
+
+.container .comparison .comparison-title p {
+    color: #2464FC;
+    font-size: 1rem;
+    margin-left: auto;
+}
+
+.container .comparison .comparison-box {
+    background: #FFFFFF;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.container .comparison .comparison-box .country-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.container .comparison .comparison-box .country-box .country-name {
+    display: flex;
+    margin-bottom: 0.75rem;
+}
+
+.container .comparison .comparison-box .country-box span {
+    color: #495172;
+    margin-top: auto;
+    margin-left: 0.5rem;
+}
+
+.container .comparison .comparison-box .country-progress {
+    display: flex;
+    align-items: center;
+}
+
+.container .comparison .comparison-box .country-progress .progress-bar {
+    width: 93%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #00e38c;
+}
+
+.container .comparison .comparison-box .country-progress .progress-bar.medium {
+    width: 73%;
+}
+
+.container .comparison .comparison-box .country-progress .progress-bar.small {
+    width: 13%;
+}

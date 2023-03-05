@@ -1,0 +1,60 @@
+.main .panel-value {
+    height: 75px;
+    width: 100%;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .panel-value .row-line {
+    width: 1px;
+    height: 75px;
+    background-color: #C5C9D7;
+    border-radius: 5px;
+}
+
+.main .panel-value .value-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .panel-value .value-box p.title {
+    color:  #8990AD;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.main .panel-value .value-box span {
+    margin-top: auto;
+    font-size: 1.5rem;
+    color: #11193C;
+    font-weight: 500;
+}
+
+.main .panel-value .value-box .value-percent {
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .panel-value .value-box .value-percent p {
+    font-size: 1.5rem;
+    color: #11193C;
+    margin-right: 1rem;
+}
+
+.main .panel-value .value-box .value-percent span {
+    color: #00E38C;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    margin-left: 0.5rem;
+}
+
+.main .panel-value .value-box .value-percent span.losses {
+    color: #FF4B75;
+}
+
+.main .panel-value .value-box .money-unit {
+    margin-top: 20px;
+}

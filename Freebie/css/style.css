@@ -1,0 +1,44 @@
+@import url(./normalize.css);
+
+@import url(./sidebar.css);
+
+@import url(./panel_profile.css);
+
+@import url(./panel-value.css);
+
+@import url(./panel-country.css);
+
+@import url(./container.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /* Font */
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #FCFCFC;
+    display: flex;
+}
+
+.wrapper .main { 
+    flex: 1;
+    padding: 2.5rem 3.5rem 0rem 3.5rem;
+}
+
+.main {
+    overflow: auto;
+}
